@@ -2,7 +2,7 @@
     "name": "smpleader/spt-boilerplate",
     "description": "A boilder to build application based SPT",
     "type": "boilerplate",
-    "license": "GPL-3.0 License",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "Pham Minh",
