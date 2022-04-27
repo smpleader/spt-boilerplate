@@ -28,4 +28,9 @@ class appPlg extends CMSApp
 
         parent::redirect($url);
     }
+
+    public function prepareUser()
+    {
+        
+    }
 }
