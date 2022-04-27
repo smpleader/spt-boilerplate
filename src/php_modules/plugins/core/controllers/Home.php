@@ -12,7 +12,7 @@ namespace App\plugins\core\controllers;
 
 use SPT\MVC\JDIContainer\MVController;
 
-class home extends MVController 
+class Home extends MVController 
 {
     public function demo($group = false)
     {
