@@ -14,7 +14,7 @@ use SPT\MVC\JDIContainer\MVController;
 
 class Home extends MVController 
 {
-    public function demo($group = false)
+    public function demo()
     {
         $this->app->set('format', 'html');
         $this->app->set('layout', 'demo');

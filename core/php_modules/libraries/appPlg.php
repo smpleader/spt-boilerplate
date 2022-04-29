@@ -19,18 +19,8 @@ class appPlg extends CMSApp
         return 'App\\'. $extra;
     }
 
-    public function redirect($url = null, $msg = null)
-    {
-        if( !empty($msg) )
-        {
-            $this->session->set('flashMsg', $msg);
-        }
-
-        parent::redirect($url);
-    }
-
     public function prepareUser()
     {
-        
+        // write your code here
     }
 }
