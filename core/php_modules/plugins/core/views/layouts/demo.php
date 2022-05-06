@@ -12,8 +12,7 @@
 
     <div class="my-4">
         <div>
-            <h1 class="d-flex justify-content-center">Example SPT Project</h1>
-            <p class="lead d-flex justify-content-center">Use this document as a way to quickly start any new project.<p>
+            <h1 class="d-flex justify-content-center">SPT Project</h1>
             <p class="lead d-flex justify-content-center">You can start development from the starter plugin.</p>
         </div>
     </div>
