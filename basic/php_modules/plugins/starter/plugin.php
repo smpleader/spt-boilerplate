@@ -8,7 +8,7 @@
  * 
  */
 
-namespace App\plugins\core;
+namespace App\plugins\starter;
 
 use SPT\Plugin\CMS as PluginAbstract;
 
@@ -31,4 +31,13 @@ class plugin extends PluginAbstract
         ];
     }
 
+    public function registerRouter()
+    {
+        return [];
+    }
+
+    public function registerObject()
+    {
+        return [];
+    }
 }
