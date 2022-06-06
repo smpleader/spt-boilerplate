@@ -8,7 +8,7 @@
  * 
  */
 
-namespace App\plugins\core;
+namespace App\plugins\starter;
 
 use SPT\Plugin\CMS as PluginAbstract;
 

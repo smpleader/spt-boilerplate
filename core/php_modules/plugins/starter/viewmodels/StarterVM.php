@@ -7,7 +7,7 @@
  * @description: Just a basic viewmodel
  * 
  */
-namespace App\plugins\core\viewmodels; 
+namespace App\plugins\starter\viewmodels; 
 
 use SPT\View\VM\JDIContainer\ViewModel; 
 

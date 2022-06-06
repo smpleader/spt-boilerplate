@@ -8,7 +8,7 @@
  * 
  */
 
-namespace App\plugins\core\controllers;
+namespace App\plugins\starter\controllers;
 
 use SPT\MVC\JDIContainer\MVController;
 
