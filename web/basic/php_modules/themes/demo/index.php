@@ -3,6 +3,8 @@
 $this->theme->prepareAssets([
     'jquery',
     'bootstrap-css',
+    'style-css',
+    'js-bootstrap'
 ]);
 
 ?>
@@ -19,28 +21,10 @@ $this->theme->prepareAssets([
 </head>
 <body class="hold-transition sidebar-mini">
     <!-- Site wrapper -->
-    <div class="wrapper">
-        <!-- Navbar -->
-        <?php  echo $this->render('widgets.sidebar'); ?>
-        <!-- /.navbar -->
-
-        <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper m-0">
-            <!-- Main content -->
-            <?php echo $this->theme->getBody(); ?>
+    <?php  echo $this->render('widgets.header'); ?>
+    <?php echo $this->theme->getBody(); ?>
+    <?php  echo $this->render('widgets.footer'); ?>
             
-            <!-- /.content -->
-        </div>
-        <!-- /.content-wrapper -->
-
-        <!-- Control Sidebar -->
-        <aside class="control-sidebar control-sidebar-dark">
-        <!-- Control sidebar content goes here -->
-        </aside>
-        <!-- /.control-sidebar -->
-    </div>
-    <!-- ./wrapper -->
-
     <?php $this->theme->echo('js', $this->url) ?> 
     <?php $this->theme->echo('inlineJs', $this->url) ?>
 </body>

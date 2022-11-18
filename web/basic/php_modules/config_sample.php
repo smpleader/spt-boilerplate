@@ -2,13 +2,13 @@
 
 return [ 
     'sitepath' => '',
-    'plugins' => ['user', 'sitemap', 'starter'],
+    'plugins' => ['starter'],
     'theme' => 'demo',
     'secrect' => 'sid',
     'endpoints' => [
     ],
     'defaultEndpoint' => [
-        'fnc' => 'core.home.demo'
+        'fnc' => 'start.home.home'
     ],
     DB_CONFIG,
     'db' => [

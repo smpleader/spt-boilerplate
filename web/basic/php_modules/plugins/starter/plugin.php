@@ -18,6 +18,11 @@ class plugin extends PluginAbstract
     {
         return [
             // write your code here
+            'viewmodels' => [
+                'alias' => [
+                    'App\plugins\starter\viewmodels\HomeVM' => 'HomeVM',
+                ],
+            ],
         ];
     }
 
@@ -31,13 +36,4 @@ class plugin extends PluginAbstract
         ];
     }
 
-    public function registerRouter()
-    {
-        return [];
-    }
-
-    public function registerObject()
-    {
-        return [];
-    }
 }

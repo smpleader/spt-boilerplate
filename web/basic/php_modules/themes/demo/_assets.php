@@ -6,6 +6,9 @@ return [
     'bootstrap-css' => [
         ['__domain__/assets/css/bootstrap5.min.css', '' , 'bootstrap-css'],
     ],
+    'style-css' => [
+        ['__domain__/assets/css/style.css', '' , 'style-css'],
+    ],
     'select2-css' => [
         ['__domain__/assets/css/select2.min.css', '', 'select2-css'],
     ],

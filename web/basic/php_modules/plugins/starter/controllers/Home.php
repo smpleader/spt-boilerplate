@@ -8,16 +8,16 @@
  * 
  */
 
-namespace App\plugins\core\controllers;
+namespace App\plugins\starter\controllers;
 
 use SPT\MVC\JDIContainer\MVController;
 
-class Starter extends MVController 
+class Home extends MVController 
 {
-    public function demo()
+    public function home()
     {
         // write your code here
         $this->app->set('format', 'html');
-        $this->app->set('layout', 'demo');
+        $this->app->set('layout', 'home');
     }
 }
