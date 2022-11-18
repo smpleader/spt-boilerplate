@@ -3,7 +3,6 @@
 return [ 
     'sitepath' => '',
     'plugins' => ['restapi'],
-    'theme' => 'demo',
     'secrect' => 'sid',
     'endpoints' => [
     ],
