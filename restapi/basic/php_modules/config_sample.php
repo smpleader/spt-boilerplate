@@ -7,7 +7,7 @@ return [
     'endpoints' => [
     ],
     'defaultEndpoint' => [
-        'fnc' => 'restapi.home.get'
+        'fnc' => 'restapi.home.display'
     ],
     DB_CONFIG,
     'db' => [
