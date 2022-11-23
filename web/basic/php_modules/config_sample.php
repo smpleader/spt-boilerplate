@@ -14,7 +14,7 @@ return [
     'db' => [
         'host' => 'DB_HOST',
         'username' => 'DB_USER',
-        'passwd' => 'DB_PASS',
+        'password' => 'DB_PASS',
         'database' => 'DB_NAME',
         'prefix' => 'DB_PREFIX',
         'debug' => true
