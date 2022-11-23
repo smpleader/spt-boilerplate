@@ -387,7 +387,6 @@
 /administrator/templates/system/*
 /bin/*
 /cache/*
-/cli/*
 /components/com_ajax/*
 /components/com_banners/*
 /components/com_config/*
