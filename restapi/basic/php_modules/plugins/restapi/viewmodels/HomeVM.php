@@ -14,14 +14,7 @@ use SPT\View\VM\JDIContainer\ViewModel;
 class HomeVM extends ViewModel
 {
     protected $alias = '';
-    protected $layouts = [
-        'layouts.home'
-    ];
+    protected $layouts = [];
 
     // write your code here
-
-    public function home()
-    {
-        $this->set('url', $this->router->url(), true);
-    }
 }

@@ -18,11 +18,6 @@ class plugin extends PluginAbstract
     {
         return [
             // write your code here
-            'viewmodels' => [
-                'alias' => [
-                    'App\plugins\restapi\viewmodels\HomeVM' => 'HomeVM',
-                ],
-            ],
         ];
     }
 

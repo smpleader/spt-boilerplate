@@ -1,12 +1,12 @@
 <?php 
 
 return [
-    'example' => [
+    'test' => [
         'fnc' => [
-            'get' => 'restapi.home.get',
-            'post' => 'restapi.home.post',
-            'put' => 'restapi.home.put',
-            'delete' => 'restapi.home.delete',
+            'get' => 'restapi.home.testGet',
+            'post' => 'restapi.home.testPost',
+            'put' => 'restapi.home.testPut',
+            'delete' => 'restapi.home.testDelete',
         ]
     ],
 ];

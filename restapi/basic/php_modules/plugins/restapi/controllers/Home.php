@@ -14,9 +14,52 @@ use SPT\MVC\JDIContainer\MVController;
 
 class Home extends MVController 
 {
-    public function home()
+    public function testGet()
     {
-        // write your code here
+        $this->app->set('format', 'json');
+        $this->set('method', 'GET');
+        $this->set('get_variables', $this->app->request->get->getAll());
+    }
+
+    public function testPost()
+    {
+        $this->app->set('format', 'json');
+        $this->set('method', 'POST');
+        $try = $this->app->request->post->getAll();
+        if(empty($try))
+        {
+            $try = $this->app->request->json->getAll();
+        }
+        $this->set('post_variables', $try);
+    }
+
+    public function testPut()
+    {
+        $this->app->set('format', 'json');
+        $this->set('method', 'PUT');
+        $try = $this->app->request->post->getAll();
+        if(empty($try))
+        {
+            $try = $this->app->request->json->getAll();
+        }
+        $this->set('put_variables', $try);
+    }
+
+    public function testDelete()
+    {
+        $this->app->set('format', 'json');
+        $this->set('method', 'Delete');
+        $try = $this->app->request->post->getAll();
+        if(empty($try))
+        {
+            $try = $this->app->request->json->getAll();
+        }
+        $this->set('delete_variables', $try);
+    }
+
+    public function display()
+    {
+        $this->set('url', $this->app->router->url('test'));
         $this->app->set('format', 'html');
         $this->app->set('layout', 'home');
     }
